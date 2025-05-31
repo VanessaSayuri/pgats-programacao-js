@@ -1,3 +1,6 @@
+//Autor(a): Vanessa Sayuri Uchida
+//Data: 31/05/2025
+
 
 //TESTE: QUANDO informar um nome para o Pet, DEVE ser impresso na tag com letras maiúsculas'
 
