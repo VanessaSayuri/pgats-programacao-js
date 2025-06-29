@@ -35,12 +35,5 @@ jobs:
         run: yarn
 
       # execução dos testes
-      - name: Executando testes com Mocha
-        run: yarn test:final
-
-
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() }}
-        with:
-          name: relatorio
-          path: ./playwright-report
+      - name: Executando testes e2e com Mocha
+        run: yarn run e2e
